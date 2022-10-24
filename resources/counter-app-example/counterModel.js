@@ -1,5 +1,6 @@
 class CounterModel {
   constructor() {
+    console.log('Hello this is a counter');
     this.counter = 0;
   }
 
@@ -9,6 +10,10 @@ class CounterModel {
 
   increment() {
     this.counter++;
+  }
+
+  decrement() {
+    this.counter--;
   }
 }
 
