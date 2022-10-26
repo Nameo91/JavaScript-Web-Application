@@ -21,7 +21,8 @@ class MessageView {
     const messageEl = document.createElement('div');
     messageEl.innerText = message;
     messageEl.id = 'message';
-
+    
+    document.querySelector('#message-input').value = '';
     document.querySelector('#main-container').append(messageEl);
   }
 
